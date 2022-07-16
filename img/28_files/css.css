@@ -1,0 +1,524 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+    background-color: rgb(46, 45, 45);
+    color: white;
+   min-height: 33px;
+   font-size: 15px;
+   font-weight: bold;
+  text-align: center;
+ padding: 15px ;
+ grid-gap: 15px;
+}
+.first{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+}
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+
+#head{
+   background-color: whitesmoke;
+    color: rgb(63, 61, 61);
+    min-height: 60px;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+ 
+}
+#head a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    color: rgb(63, 61, 61);
+}
+li a:active{
+  color: dodgerblue;
+}
+#head li{
+    float: left;;
+    display: inline;
+    padding: 0 23px;
+
+}
+#head .first5{
+    float: left;
+   padding-left: 160px;
+
+}
+#head .first5 h1{
+    margin: 0;
+}
+nav{
+    float: right;
+  padding-right: 160px;
+   
+}
+#email{
+    color: grey;
+}
+#email:hover{
+    color: aqua;
+    cursor: grab;
+}
+a:hover{
+    color:dodgerblue ;
+}
+.first3  i:hover{
+  background-color: dodgerblue;
+  cursor: grab;
+}
+  .first i{
+   
+    color: dodgerblue;
+  }
+  .first5 a:active{
+      color: dodgerblue;
+   cursor: grab;
+  }
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+.back{
+    background-image: url(img/u345.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+margin-top: 60px;
+color: white;
+text-align: center;
+margin-bottom: -20px;
+margin-top: -40px;
+
+}
+.back #pragh{
+    color: white;
+    padding: 15px;
+   text-align: left;
+   padding: 60px 20pc;
+}
+.back #pragh #some{
+    font-size: 76px;
+}
+.back button:hover{
+    background-color: dodgerblue;
+    cursor: grab;
+}
+#mark{
+    color: dodgerblue;}
+    button{
+        text-transform: uppercase;
+        font-size: 17px;
+        color: white;
+        border: white solid 0.5px;
+        padding: 20px;
+        width: 170px;
+        height: 60px;
+        font-weight: bold;
+        background-color: transparent;
+    
+    }
+    
+   
+
+
+
+
+
+
+    /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+    
+     #about{
+         margin: auto;
+         color: white;
+         background-color: rgb(39, 36, 36);
+         padding: 30px;
+text-align: center;
+margin-top: -10px;
+      height: 400px;
+      padding-bottom:40px;
+       
+     }
+     section p{
+         font-size: 14px;
+         padding-top: 20px;
+     }
+     #about h2{
+         font-size: 47px;
+         font-weight: lighter;
+         text-align: center;
+         padding: 50px;
+         text-transform: uppercase;
+         padding-top: 0px;
+         padding-bottom: 20px;
+     }
+    
+     .fully{
+         width: 19%;
+         height: 50px;
+         display: inline-block;
+         padding-top: 0px;
+         padding-bottom: 0;
+      text-align: left;  
+      padding-left: 85px;
+     }
+     .fully .koko{
+        padding-left: 25px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    .fully .link{
+        font-size: 20px;
+        border: .5px solid white;
+       width: 20px;
+       height: 10px;
+       padding: 1.3pc;
+       margin-left: -20px;
+      
+      
+    }
+
+     
+         /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+        
+        #team{
+            height: 600px;
+            margin: auto;
+           
+            text-align: center;
+          margin-top: -40px;
+          background-color: rgb(39, 36, 36);
+          padding-bottom: 60px;
+        }
+        #team h2{
+            font-size: 47px;
+            font-weight: lighter;
+            text-align: center;
+            padding: 50px;
+            text-transform: uppercase;
+            padding-top: 0px;
+            color: white;
+            padding-bottom: 20px;
+        }
+        .card{
+            background-color: rgb(80, 76, 76);
+            width: 250px;
+            height: 450px;
+            display: inline-block;
+            text-align: left;
+          margin-left: 20px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+        }
+        .card:hover{
+          
+           filter: brightness(.5);
+           cursor: grab;
+          transform: translate(0px,-8px);
+        }
+        .cont{
+            padding: 15px 15px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+           
+            color: white;
+            
+        }
+        .card img{
+            width: 100%;
+            height: 55%;
+        }
+        .cont h4{
+            color: dodgerblue;
+            padding-bottom: 0px;
+
+        }
+        .cont p{
+         padding-bottom:0px;
+         padding-top: 0px;
+            font-size: 14px;
+          
+        }
+ /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+                 #web{
+                    padding: 0px 0px;
+                    height: 600px;
+                    background-color: rgb(39, 36, 36);
+                   text-align: center;
+                    margin-top: -40px;
+                    padding-bottom: 80px;
+                 }
+                 #web h2{
+                    font-size: 47px;
+                    font-weight: lighter;
+                    text-align: center;
+                    padding: 50px;
+                    text-transform: uppercase;
+                    padding-top: 30px;
+                    color: white;
+                    padding-bottom: 20px;
+                 }
+                 #color{
+                  background-color: rgb(66, 66, 66);
+                  color: white;   
+                 }
+                 .cloud{
+                     width: 320px;
+                     height: 340px;
+                     text-align: left;
+                     display: inline-block;
+                    margin-left: -5px;
+                     padding: 40px 35px;
+                     color: white;
+                 }
+                 .cloud p{
+                     font-size: 15px;
+                     line-height: 1.4;
+                     padding-bottom: 40px;
+                 }
+                 .cloud h3{
+                    color: dodgerblue;   
+                    padding-bottom:0px;
+                    padding-top: 10px;
+                   
+                 }
+                 .cloud .link{ padding-top: 20px;
+                   height: 50px;
+                     width: 50px;
+                   text-align: center;
+                   padding: 24px 24px;
+                     border: white  solid 1px;
+
+                 }
+                 .cloud i{
+                     font-size: 48px;
+                   text-align: center;
+                   padding-right: 40px;
+                   color: white;
+                 }
+                 .three{
+                     padding: 0px 0px;
+                 }
+                 .cloud:hover{
+                    background-color: rgb(66, 66, 66);
+                   
+                 }
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+     #img{
+         height: 600px;
+         
+         text-align: center;
+         padding: 0px 0px;
+         background-color: rgb(39, 36, 36);
+         margin-top:-60px ;
+     }
+     #img h2{
+        font-size: 47px;
+        font-weight: lighter;
+        text-align: center;
+        padding: 50px;
+        text-transform: uppercase;
+        padding-top: 10px;
+        color: white;
+        padding-bottom: 20px;   
+     }
+     .pict{
+      
+       margin: 0;
+       padding: 0px 60px;
+       text-align: center;
+       color: white;
+     }
+     
+     .fill{
+         display: inline-block;
+        float: center;
+        position: relative;
+        display: inline-block;
+       width: 300px;
+       height: 200px;
+        text-align: left;
+        margin-left: -4.8px;
+        margin-top: -4.8px;
+        padding: 0 0 0 0;
+     }
+     .fill h3{
+         padding: 0 0;
+     }
+     .fill button{
+         width: 80px;
+         padding: 10px 10px;
+         height: 35px;
+         text-align: center;
+         background-color: transparent;
+         font-size: 14px;
+         color: white;
+     }
+    #img img{
+        width: 100%;
+        height: 100%;
+     
+      
+        padding: 0;
+    }
+    .fill p{
+        font-size: 13px;
+     padding-top: 0px;
+        text-align: 1.4;
+    }
+    .fill .mom{
+        margin-top: -204px;
+        padding: 10px 15px;
+        z-index: 1;
+     opacity: 0;
+        position: absolute;
+        height: 90%;
+    }
+   
+    
+  
+   .mom:hover{
+    opacity: .71;
+    background-color: dodgerblue;
+    cursor: grab;
+   }
+     /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+      #end{
+          height: 600px;
+         background-color: rgb(26, 25, 25);
+          margin-top: -40px;
+          padding-bottom: 30px;
+      }
+      #end h2{
+        font-size: 47px;
+        font-weight: lighter;
+        text-align: center;
+        padding: 50px;
+        text-transform: uppercase;
+        padding-top: 70px;
+        color: white;
+        padding-bottom: 0px;   
+      }
+      .two{
+        padding-top: 0px;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap: 38px;
+          padding: 0px 230px;
+          text-align: center;
+        padding-bottom: 0px;
+      }
+      .first33{
+          text-align: left;
+          display: grid;
+          padding-top: 0px;
+          grid-template-columns: repeat(1,1fr);
+      }
+      .first33 label{
+          text-align: left;
+          color: white;
+         padding-bottom: 190px;   
+          font-size: 14px;
+      }
+      .first33 input {
+         width: 550px;
+         height: 45px;
+         background-color: transparent;
+         color:white;
+         border: dodgerblue 1px solid;
+       
+      }
+    
+      .first33 textarea{
+        width: 550px;
+        background-color: transparent;
+       color: white;
+        height: 80px;
+        border: dodgerblue 1px solid;
+
+      }
+    #sub{
+        background-color:dodgerblue;
+        color:white;
+        font-weight: bolder;
+        font-size: 15px;
+        height: 55px;
+      
+        width: 560px;
+    }
+    #sub:hover{
+        background-color: transparent;
+        cursor: grab;
+    }
+    .second p{
+        font-weight: normal;
+       padding-bottom: 0px;
+        line-height: 1.5;
+        
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+      
+    .second{
+        color: white;
+        text-align: left;
+      
+    }
+    .second h4{
+        font-size: 22px;
+        padding-bottom: 0px;
+        padding-top: 40px;
+        line-height: 0px;
+    }
+    .second .icon{
+        color: white;
+        width: 60px;
+        height: 50px;
+        padding: 10px 10px;
+        border: solid white 1px;
+        font-size: 15px;
+      
+    }
+    
+   
+    .second .sher{
+        padding-left: 20px;
+    }
+    .second .offf{
+     padding-top: 32px;
+    }
+    .second .soc{
+        padding-top: 40px;
+      
+       
+    }
+    .second #sat{
+        border-bottom: solid gray 1px;
+        padding-bottom: 30px;
+    }
+    .soc .icon:hover{
+        background-color:dodgerblue;
+        cursor: grab;
+    }
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+footer{
+    height: 50px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: rgb(39, 36, 36);}
+    footer p{
+        color: white;
+        font-size: 15px;
+        margin-top: 20px;
+    }

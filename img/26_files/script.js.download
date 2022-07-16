@@ -1,0 +1,36 @@
+//header
+window.addEventListener('scroll', function () {
+    var kk = document.querySelector(".logo");
+    var mm = document.querySelector("header ");
+    if (window.pageYOffset > 0) {
+        mm.style.height = "60px";
+        mm.classList.add("blackg");
+        mm.classList.add("textb");
+        mm.style.borderBottom = "1px solid black";
+        //  mm.style.box-shadow = "0 5px 20px rgba(0,0,0,0.1)";
+    }
+    else {
+        mm.style.height = "100px";
+        mm.classList.remove("blackg");
+        mm.classList.remove("textb");
+
+    }
+});
+/*________________________________________________________________________________________________________________________________*/
+//slidshow 
+var arr = ["img/765.jpg", "img/98765.jpg", "img/234.jpg", "img/675.jpg", "img/6543.jpg", "img/09.jpg", "img/999.jpg"];
+var data = document.getElementById("pic");
+var d = 0;
+function mypic() {
+
+    data.src = arr[d];
+    if (d < arr.length - 1) {
+        d++;
+    }
+    else {
+        d = 0;
+    }
+    setTimeout("mypic()", 5000);
+
+}
+mypic();

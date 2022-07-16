@@ -1,0 +1,331 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*_________________________________________________________________________________________________________*/
+section{
+    padding: 100px;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(img/8.jpg);
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 3em;
+    color: white;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+}
+.btn{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2;
+}
+/*_________________________________________________________________________________________________________*/
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    background-color:rgb(10, 1, 1);
+     z-index: 1;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     transition: background 1s;
+     border-bottom: solid black 1px;
+}
+.blackg{
+    background-color: white;
+}
+ .textb ul li a ,.textb .logo{
+    color: black ;
+}
+header .logo{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    padding: 0;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    
+    text-decoration: none;
+    color: white;
+}
+/*_________________________________________________________________________________________________________*/
+
+.head{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.head h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.cont{
+    display: flex;
+    justify-content:space-around;
+}
+.contab{
+    
+    padding-right: 30px;
+}
+.contab h3{
+font-size: 24px;
+margin-bottom: 10px;
+}
+.contab p{
+    line-height: 1.9;
+    min-width: 50%;
+}
+.w50{
+    min-width: 50%;
+   
+}
+    .w50 img{
+        min-width: 100%;
+        border: 1px solid rgb(51, 3, 3);
+        height: 430px;
+    }
+/*_________________________________________________________________________________________________________*/
+.ser{
+    background: #111;
+}
+
+.ser .cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.ser .cont .serbx{
+    max-width: 340px;
+    padding: 40px 20px;
+    color: #fff;
+    margin: 20px;
+    background-color: #222;
+    text-align: center;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.ser h2{
+    color: white;
+}
+.ser .cont .serbx img{
+    width: 230px;
+    height: 250px;
+}
+.ser .head p{
+    color: white;
+}
+.ser .cont .serbx p{
+    line-height: 1.7;
+    font-size: 15px;
+}
+.ser .cont .serbx:hover{
+    background: #9dbad1;
+    color: palevioletred;
+}
+.ser .cont .serbx h2{
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+/*_________________________________________________________________________________________________________*/
+.work h2 { 
+    color:black;
+}
+.work p{
+    color: black;
+}
+.work .cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.work .cont .workbx{
+    width: 50%;
+    padding: 20px ;
+}
+.work .cont .workbx img{
+  width: 98%;
+    height: 500px;
+}
+.head h2{
+    font-size: 40px;
+    font-weight: 600; 
+    line-height: 2;
+    
+}
+/*_________________________________________________________________________________________________________*/
+.testl .head p ,h2{
+    color: black;
+}
+.testl{
+    background: #f7f7f7;
+}
+.testl .cont{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.testl .cont .testbx{
+   max-width: 47% ;
+    padding: 60px 40px;
+    margin: 20px;
+   background: #2196f3;
+}
+.testl .cont .testbx p{
+    color: #fff;
+    font-style: italic;
+    line-height: 1.9;
+    font-size: 16px;
+    font-weight: 300;
+}
+.testl .cont .testbx h3{
+    margin-top: 20px;
+    text-align: end;
+    color: #fff;
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 20px;
+}
+.testl .cont .testbx h3 span{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+/*_________________________________________________________________________________________________________*/
+.conta{
+background: #111;
+}
+.formbx{
+    min-width: 60%;
+}
+.conta .head h2 ,p{
+    color: white;
+}
+.formbx form{
+    display: flex;
+    flex-direction: column;
+}
+.formbx form h3 , .contin h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.formbx form input , .formbx form textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    resize: none;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: white;
+}
+.formbx form textarea{
+    min-height: 200px;
+}
+.formbx form input::placeholder , .formbx form textarea::placeholder{
+    color: #999999;
+}
+.formbx form input[type="submit"]{
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}
+.contin{
+    min-width: 40%;
+}
+.continbx{position: relative;}
+.continbx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.continbx .box .icon{
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+.continbx .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    line-height: 1.7;
+    font-weight: 300;
+}
+.continbx .box .text h3{
+    font-weight: 500;
+    color: #2196f3;
+    margin-bottom: 0;
+}
+/*_________________________________________________________________________________________________________*/
+footer{
+    background-color: #000000;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;}
+    footer p{
+        color: white;
+        font-size: 15px;
+        font-weight: 500;}
+.about .contab p{
+    color: black;
+}
